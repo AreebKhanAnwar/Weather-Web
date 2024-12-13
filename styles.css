@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: rgb(48,105,167);
+    background: linear-gradient(-27deg, rgba(48,105,167,1) 41%, rgba(69,122,181,1) 57%, rgba(139,178,227,1) 81%);
+    background-color: #6a9edf;
+    box-sizing: border-box;
+    /* filter: blur(2px); */
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2022/12/11/07/07/pine-7648311_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    background-color: skyblue;
+    background-color: #c4c1c1ab;
+    /* height: 500px; */
+    width: 30vw;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px 5px  rgb(131, 129, 129);
+}
+.main .input {
+    background-color: rgb(255, 255, 255);
+    /* width: 250px; */
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+.main .input button{
+    border: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.main .input i{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #575758;
+}
+.main .input input{
+    height: 30px;
+    width: 220px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.img img{
+    height: 150px;
+    width: 150px;
+}
+.celcius{
+    font-size: 80px;
+    margin-top: 90px;
+    color: #5F6062;
+}
+.img .img_2{
+    height: 50px;
+    width: 50px;
+    margin-top: 90px;
+}
+.second .mini_1 img{
+    height: 50px;
+}
+.second .mini_1 p{
+    font-size: 12px;
+    color: #575758;
+}
+.second .mini_1 h6{
+    font-size: 14px;
+    color: #575758;
+}
